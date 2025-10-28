@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h2 id="heading">HELLO ! WORLD .</h2>
+       <button onclick="changeText()">CLICK ME</button>
+
+       <!-- mouse event, onlick event -->
+
+       <script>
+            // let heading = document.getElementById("heading"); //hello world
+            // it acces the id heading and place in heading variable
+            // heading.style.color= "blue"; //modify
+           
+            // heading.textContent ="change by javascript";
+            //text content it change the text
+                    function changeText()
+                    {
+                         let heading = document.getElementById("heading");
+                         heading.textContent= "This is change js";
+                         heading.style.color= "blue";
+                    }
+
+                    /*
+                      syntax of a function
+                        // function function_name() //parameters
+                        {
+                              code //
+                        }  
+                              function call() function is call by its name
+                              */
+                
+       </script> 
+    
+</body>
+</html>

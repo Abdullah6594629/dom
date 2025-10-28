@@ -1,0 +1,30 @@
+<!-- create a function 
+   change font & backgorund color
+    buton click text font size / background color change -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+          <h1 id="title">WELCOME ! TO WEB PAGE !</h1>
+            
+               <button onclick="updateTitle()">CLICK ME TO OPEN CODE</button>
+
+                 <script>
+                      function updateTitle()
+                      {
+                         const title= document.getElementById("title");
+                         title.textContent ="Update heading !";
+                         title.style.fontSize= "40px";
+                         title.style.backgroundColor="yellow";
+                         title.style.padding="10px";
+                         title.style.borderRadius="5px";
+                        
+                      }
+                 </script>
+    </body>
+    </html>
